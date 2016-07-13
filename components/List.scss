@@ -1,0 +1,77 @@
+.placeholder {
+    margin: 12px 16px 16px 16px;
+    height: 90px;
+    border: 2px dashed #6b6b6b;
+    background-color: #eee;
+}
+
+.item {
+    padding: 16px 16px 0 16px;
+    border: 1px solid #ABABAB;
+    margin: 20px;
+    cursor: move;
+    background-color: #fff;
+    border-radius: 2px;
+    transition: background-color 280ms, border-color 280ms;
+}
+
+.itemSelected {
+    margin-left: 16px;
+    border-left: 5px solid #535353;
+    margin-right: 16px;
+    border-right: 5px solid #535353;
+    border-color: #535353;
+    background-color: #F3F3F3;
+    border-radius: 0;
+}
+
+.itemNoShow {
+    opacity: 0.5;
+}
+
+.itemIsWrapper {
+    padding: 16px 0 0 0;
+}
+
+.labelForWrapper {
+    padding: 0 16px;
+}
+
+label {
+    cursor: inherit;
+}
+
+.listItemWrapper {
+    position: relative;
+}
+
+// Drag styling
+.dragName {
+    font-weight: 700;
+}
+
+.item[draggable=true] .itemChild,
+.item[draggable=true] .itemForm,
+.item[draggable=true] .itemControls {
+    display: none;
+}
+
+.item[draggable=true] .dragName {
+    display: block;
+    padding-bottom: 16px;
+}
+
+.item[draggable=true] .labelForWrapper {
+    padding-bottom: 8px;
+}
+
+.dragName {
+    display: none;
+}
+
+.ghost {
+    opacity: .5;
+}
+
+
+
