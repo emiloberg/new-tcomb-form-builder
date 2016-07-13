@@ -1,7 +1,7 @@
 {
-  "name": "react-boilerplate",
+  "name": "tcomb-form-builder",
   "version": "1.0.0",
-  "description": "Minimal React boilerplate",
+  "description": "React Component - Visual form builder for tcomb-form",
   "scripts": {
     "start": "NODE_ENV=development node dev-server.js",
     "start:prod": "node dev-server.js",
